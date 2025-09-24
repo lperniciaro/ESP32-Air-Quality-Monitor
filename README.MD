@@ -2,6 +2,8 @@
 
 An ESP32-based air quality monitoring system that collects data from multiple sensors and sends it to InfluxDB for visualization in Grafana.
 
+![Air Quality Dashboard](dashboard.png)
+
 ## Hardware Components
 - ESP32 microcontroller
 - PMS5003 particulate matter sensor
@@ -119,4 +121,8 @@ These scripts are built for MacOS/Linux. You can modify for windows if you like.
 - **PMS5003 Protocol Implementation** - Custom implementation based on https://instesre.org/ParticulateSensorKit/ParticulateSensorKit.htm#:~:text=You%20can%20download%20the%20Arduino,stores%20PMS5003%20and%20DHT22%20data. This tutorial I was able to get the PMS5003 to work adapting for ESP32.
 - **SenseAir S8 Protocol Implementation** - ChatGPT lol
 - **SHT4x Implementation** - ChatGPT and following documentation https://cdn-learn.adafruit.com/downloads/pdf/adafruit-sht40-temperature-humidity-sensor.pdf
+
+### Credits
+Thanks to KindOfOK for publishing Enviro + grafana dashboard I used as a template for my project. My dashboard removes the heatmaps and pressure sensing, and adds CO2 monitoring.
+https://grafana.com/grafana/dashboards/13885-enviro/
 
