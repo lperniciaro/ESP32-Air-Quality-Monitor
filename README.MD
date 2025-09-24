@@ -2,7 +2,7 @@
 
 An ESP32-based air quality monitoring system that collects data from multiple sensors and sends it to InfluxDB for visualization in Grafana.
 
-![Air Quality Dashboard](dashboard.png)
+![Air Quality Dashboard](Dashboard.png)
 
 ## Hardware Components
 - ESP32 microcontroller
